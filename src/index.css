@@ -36,3 +36,30 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+  ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    border: none;
+
+    }
+
+    ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    border: none;
+
+    }
+
+
+
+    ::-webkit-scrollbar-thumb {
+    background: #a8a8a8; 
+    border: none;
+    border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+    border: none;
+}

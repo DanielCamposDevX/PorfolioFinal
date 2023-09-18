@@ -17,6 +17,9 @@ export function Header() {
             <Linkedin className="h-4 w-4"/>
             Linkedin
           </Button>
+          <Button variant={"outline"} className="gap-2">
+            Contato
+          </Button>
         </div>
       </header>
   )
