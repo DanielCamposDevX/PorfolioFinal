@@ -36,7 +36,6 @@ export function FifthBlock() {
                 </div>
 
             </div>
-           <DialogBox setMessage={setMessage} message={message} />
         </div>
     )
 }

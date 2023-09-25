@@ -5,7 +5,7 @@ export function FourthBlock() {
 
     return (
         <div className="p-6 flex flex-col h-screen bg-black/90">
-            <div className="flex flex-1 justify-around items-center leading-relaxed">
+            <div className="flex flex-1 justify-around items-center leading-relaxed md:flex-row flex-col">
                 <Icons />
                 <div className="w-1/2">
                     <h1 className="text-xl mb-3 font-medium">Experiências e Escolaridade:</h1>

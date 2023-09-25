@@ -5,7 +5,7 @@ import { LiaNode } from 'react-icons/lia'
 
 export default function Icons() {
     return (
-        <div className='w-1/2 flex flex-col justify-center items-center '>
+        <div className='md:w-1/2 w-full md:m-0 m-2 flex flex-col justify-center items-center '>
             <h1 className='text-xl mb-3 font-medium m-10'>Linguagens e Frameworks</h1>
             <div className='text-white p-5 w-1/2 gap-2 flex flex-wrap justify-center rounded'>
                 <AiOutlineHtml5 className='text-3xl m-2 text-orange-500' />

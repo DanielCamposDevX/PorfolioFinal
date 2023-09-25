@@ -8,7 +8,7 @@ export function SecondBlock() {
     const [height, setHeight]: any = useState(200)
 
     return (
-        <div className="p-6 flex bg-background h-screen flex-col items-center justify-around">
+        <div className="p-6 flex bg-background min-h-screen flex-col items-center justify-around overflow-hidden">
             <div className="flex items-center flex-col w-5/6">
                 <h1 className="text-accent-foreground text-2xl mb-2 font-semibold">Sobre mim</h1>
                 <AnimateHeight
