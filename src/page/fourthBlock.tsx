@@ -4,7 +4,7 @@ import Icons from "@/components/icons";
 export function FourthBlock() {
 
     return (
-        <div className="p-6 flex flex-col h-screen bg-black/90">
+        <div className="p-6 flex flex-col min-h-screen bg-black/90">
             <div className="flex flex-1 justify-around items-center leading-relaxed md:flex-row flex-col">
                 <Icons />
                 <div className="w-1/2">

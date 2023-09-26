@@ -1,21 +1,7 @@
-import { DialogBox } from "@/components/dialog"
 import { Instagram } from "lucide-react"
-import { useState } from "react"
 
 
 export function FifthBlock() {
-    type MessageT = {
-        email: string,
-        corpo: string,
-        phone: string
-    
-    }
-
-    const [message,setMessage]= useState<MessageT>({
-        email: '',
-        corpo: '',
-        phone: ''
-    })
 
 
 

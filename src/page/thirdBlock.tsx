@@ -26,7 +26,7 @@ export function ThirdBlock() {
 
         <div className="p-6 flex bg-red-700/50 h-screen flex-col items-center justify-center">
             <h1 className="text-accent-foreground text-2xl font-semibold mb-20"> Meus Sites</h1>
-            <div className="w-5/6 flex overflow-x-scroll custom-scrollbar p-2">
+            <div className="w-full flex overflow-x-scroll custom-scrollbar p-2">
                 {projects.map((project, index) => (
                     <Card key={index} className="md:min-w-[450px] min-w-[200px] flex flex-col items-center mx-3 hover:shadow-md hover:shadow-white/60 hover:cursor-pointer hover:transition">
                         <a href={project.link} className="flex-1">
